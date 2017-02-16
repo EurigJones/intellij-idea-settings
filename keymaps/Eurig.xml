@@ -3,12 +3,12 @@
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="Compile" />
-  <action id="CompileProject">
-    <keyboard-shortcut first-keystroke="shift meta space" />
-  </action>
   <action id="Console.Execute.Multiline" />
   <action id="EditorCompleteStatement" />
   <action id="EditorSplitLine" />
+  <action id="ExternalSystem_46efdc4dSandboxJava46efdc4dbuild">
+    <keyboard-shortcut first-keystroke="shift meta space" />
+  </action>
   <action id="FindInPath" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift meta t" />
