@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="Compile" />
-  <action id="CompileProject">
+  <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="shift meta space" />
   </action>
   <action id="Console.Execute.Multiline" />
