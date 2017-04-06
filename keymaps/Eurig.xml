@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="Compile" />
+  <action id="CompileProject">
+    <keyboard-shortcut first-keystroke="shift meta space" />
+  </action>
   <action id="Console.Execute.Multiline" />
   <action id="EditorCompleteStatement" />
   <action id="EditorSplitLine" />
