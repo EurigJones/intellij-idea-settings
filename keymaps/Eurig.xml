@@ -1,11 +1,47 @@
 <keymap version="1" name="Eurig" parent="Mac OS X 10.5+">
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift meta enter" />
+  <action id="ActivateStructureToolWindow" />
+  <action id="ChooseRunConfiguration" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta 7" />
   </action>
   <action id="Compile" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="shift meta space" />
+  </action>
   <action id="Console.Execute.Multiline" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorSplitLine" />
+  <action id="EditorToggleCase" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="ExternalSystem_46efdc4dSandboxJava46efdc4dbuild">
     <keyboard-shortcut first-keystroke="shift meta space" />
   </action>
@@ -17,6 +53,12 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="GotoTest" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="KotlinShellExecute" />
   <action id="OptimizeImports">
@@ -30,9 +72,21 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
   <action id="ReplaceInPath" />
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
