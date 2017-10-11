@@ -8,6 +8,9 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
