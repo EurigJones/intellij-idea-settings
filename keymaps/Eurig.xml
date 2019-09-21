@@ -2,11 +2,30 @@
   <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="shift meta space" />
   </action>
+  <action id="DSM.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="EditorToggleCase" />
   <action id="Educational.NextPlaceholder">
     <keyboard-shortcut first-keystroke="shift meta period" />
     <keyboard-shortcut first-keystroke="shift ctrl period" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="FindInPath" />
   <action id="FindUsages">
@@ -19,7 +38,13 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="GotoTest" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="Images.ShowThumbnails" />
+  <action id="Maven.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="MinimizeCurrentWindow" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta o" />
@@ -35,11 +60,14 @@
   </action>
   <action id="ReplaceInPath" />
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
 </keymap>
